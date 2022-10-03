@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="rps">
+        <div class="home-title">
+            <h1>Rock Paper & Scissors</h1>
+            <h4>best of 5</h4>
+            <h5>Round<span id="roundnumba">0</span></h5>
+        </div>
+        <div class="info">
+            <div class="p1">
+                <div class="title">
+                <h1>You: </h1>
+                <h1 id="playPunt">0</h1>
+                </div>
+                <div id="playImage" Class='questionMark'>
+                <img id="playImage1" Class='questionMark' src="./image/question-mark-svgrepo-com.svg" alt="Question Mark">
+                <img id="playImage2" Class='questionMark' src="./image/alpine-landscape-rock-rubble-01g-al1.svg" alt="Question Mark">
+                <img id="playImage3" Class='questionMark' src="./image/Paper-Roll-.svg" alt="Question Mark">
+                <img id="playImage4" Class='questionMark' src="./image/nicubunu_Scissors.svg" alt="Question Mark">
+
+                </div>
+            </div>
+
+            <div class="n1">
+                <div id="npcImage" Class='questionMark'> 
+                    <img id="playImage6" Class='questionMark' src="./image/question-mark-svgrepo-com.svg" alt="Question Mark">
+                    <img id="playImage7" Class='questionMark' src="./image/alpine-landscape-rock-rubble-01g-al1.svg" alt="Question Mark">
+                    <img id="playImage8" Class='questionMark' src="./image/Paper-Roll-.svg" alt="Question Mark">
+                    <img id="playImage9" Class='questionMark' src="./image/nicubunu_Scissors.svg" alt="Question Mark">
+                </div>
+                <div class="title">
+                    <h1>Computer: </h1>
+                    <h1 id="npcPunt">0</h1>
+                    </div>
+            </div>   
+        </div>
+
+        <div class="choose-title">
+            <h1>Choose wisely :)</h1>
+            <div class="choose">
+                <div class="rock">
+                   <img id='rock' Class='answer' src="./image/alpine-landscape-rock-rubble-01g-al1.svg">
+             </div>
+
+                <div class="paper">
+                    <img id='paper' Class='answer' src="./image/Paper-Roll-.svg">
+                </div>
+
+                <div class="scissors">
+                
+                    <img id='scissors' Class='answer' src="./image/nicubunu_Scissors.svg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script src="./app.js"></script>
+</body>
+</html>
